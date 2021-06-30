@@ -22,6 +22,10 @@ body {
   text-transform: uppercase;
 }
 
+.data a {
+  text-decoration: none;
+}
+
 .semi-bold {
   font-weight: 500;
   font-size: 16px;
