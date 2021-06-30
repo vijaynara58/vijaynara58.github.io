@@ -18,12 +18,15 @@ body {
 
 .bold {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 25px;
   text-transform: uppercase;
 }
-
-.data a {
-  text-decoration: none;
+.mrgn {
+  margin-left: 15px;
+}
+.bold .name {
+  color: white;
+  
 }
 
 .semi-bold {
@@ -85,11 +88,27 @@ body {
 }
 .centre {
   color: #fff;
-  text-decoration: underline;
+  padding: 5px;
+  width: 70%;
+  text-align: center;
+  margin-left: 40px;
+  background: #360033;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-weight: 700;
   text-align: center;
 }
-.profile_pic {
-  
+.centre-change {
+  color: #fff;
+  padding: 5px;
+  width: 70%;
+  text-align: center;
+  margin-left: 40px;
+  background: #360033;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-weight: 700;
+  text-align: center;
 }
 .centre a {
   color: #fff;
@@ -162,11 +181,12 @@ body {
 
 .resume .resume_left .resume_skills ul li .skill_name {
   width: 25%;
+  margin-right: 0px;
 }
 
 .resume .resume_left .resume_skills ul li .skill_progress {
   width: 60%;
-  margin: 0 5px;
+  margin: 0 15px;
   height: 5px;
   background: #009fd9;
   position: relative;
@@ -264,6 +284,9 @@ body {
 
 .resume .resume_right .resume_hobby ul li i {
   font-size: 30px;
+}
+.data a {
+  text-decoration: none;
 }
 .projects {
   margin-bottom: 15px;
