@@ -8,7 +8,9 @@
   font-family: "Montserrat", sans-serif;
 }
 
-
+.brek {
+  border-bottom: 2px solid #b1eaff;
+}
 body {
   background: #585c68;
   font-size: 14px;
