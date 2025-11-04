@@ -12,12 +12,12 @@
   border-bottom: 2px solid #b1eaff;
 }
 body {
+
   background: #585c68;
   font-size: 14px;
   line-height: 22px;
-  color: #555555;
+  color: #1b1919;
 }
-
 .bold {
   font-weight: 700;
   font-size: 25px;
@@ -44,13 +44,13 @@ body {
 }
 
 .resume .resume_left {
-  width: 280px;
-  background: #0bb5f4;
+  width: 260px;
+  background: #3a373d;
 }
 
 .resume .resume_left .resume_profile {
   width: 100%;
-  height: 280px;
+  height: 260px;
 }
 
 .resume .resume_left .resume_profile img {
@@ -68,7 +68,7 @@ body {
 .data a:hover
 {
   
-  color:#555555;
+  color:#fbfafc;
 }
 
 .resume .title {
@@ -317,5 +317,3 @@ background: linear-gradient(to left, #0b8793, #360033); /* W3C, IE 10+/ Edge, Fi
 .resume .resume_right .resume_hobby ul li:last-child:before {
   display: none;
 }
-
-
